@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 
 # --- CONFIGURATION ---
 TOKEN = "8076977375:AAGxu6Rnyc7aUDziYIfHHaIgvTVlCKN-l7A" 
-ADMIN_ID = "7662143324" # Get this from @userinfobot
+ADMIN_ID = "5764464210" # Get this from @userinfobot
 
 # Logging for errors
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
